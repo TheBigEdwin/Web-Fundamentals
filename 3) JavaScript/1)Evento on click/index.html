@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Nav-Bar">
+            <h1 class="titulo">Dojonary</h1>
+            <input type="text" name="Buscar" placeholder="Buscar" class="Buscar">
+            <button class="btn login" onclick="login(this)">Login</button>
+        </div>
+        <div class="Cuadro">
+            <div class="flex-1">
+                <div class="box definition">
+                    <div class="left">
+                        <h1>Ninja</h1>
+                        <p><em>Nin-jutsu</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn like" onclick="message()">13 likes</button>
+                    </div>
+                    <p class="definition-text">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <div class="box definition">
+                    <div class="left">
+                        <h1>Samurai</h1>
+                        <p><em>Tai-Jutsu</em></p>
+                        <p>Plural: <em>Samurais</em></p>
+                        <button class="btn like" onclick="message()">37 likes</button>
+                    </div>
+                    <p class="definition-text">A <a href="#">Programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="flex-2">
+                <div class="box">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="btn add" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Scritp.js"></script>
+</body>
+</html>

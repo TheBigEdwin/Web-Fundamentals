@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="en"></html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de perfil</title>
+    <link rel="stylesheet" href="style.css">
+">
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="flex-container main">
+
+
+        <div class="col-2">
+
+            <!-- user info card -->
+            <div class="card user-card">
+                <div class="card-header">
+                    <img src="images/user-circle.png" alt="jane" class="avatar-m">
+                </div>
+                <div class="card-body">
+                    <h1 id="username">Edwin Prieto</h1>
+                    <h3><img src="images/map-marker.png" alt="pin" class="icon-s"> Venezuela</h3>
+                    <p>Desarollador | Skater | simpatico <br>
+                    </p>
+                    <p onclick="edit()"><a href="#"><img src="images/gear.png" alt="gear" class="icon-s"> editar Perfil</a></p>
+                </div>
+            </div>
+
+            <!-- user education  -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>Education</h3>
+                </div>
+                <div class="card-body">
+                    <h2>Coding Dojo - Full Stack MERN</h2>
+                    <p class="dates">May 2023 - sep 2023</p>
+                    <p>Java Script-MERN...</p>
+                </div>
+            </div>
+
+        </div>
+
+      
+        <div class="col-1">
+
+            <!-- Connection Requests  -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" id="requests">2</span>
+                    <h3>Connection Requests</h3>
+                </div>
+                <ul class="card-list">
+                    <li class="card-list-item" id="request-1">
+                        <span>
+                            <img src="images/todd-s.jpg" alt="todd" class="avatar-s">
+                            Todd E
+                        </span>
+                        <span>
+                            <img src="images/accept-circle.png" alt="accept" class="icon" onclick='accept("#request-1")'>
+                            <img src="images/close-circle.png" alt="close" class="icon" onclick='ignore("#request-1")'>
+                        </span>
+                    </li>
+                    <li class="card-list-item" id="request-2">
+                        <span>
+                            <img src="images/phil-s.jpg" alt="phil" class="avatar-s">
+                            Phil E
+                        </span>
+                        <span>
+                            <img src="images/accept-circle.png" alt="accept" class="icon" onclick='accept("#request-2")'>
+                            <img src="images/close-circle.png" alt="close" class="icon" onclick='ignore("#request-2")'>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Connections Card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge" id="connections">498</span>
+                    <h3>Your Connections</h3>
+                </div>
+                <ul class="card-list">
+                    <li class="card-list-item start">
+                        <img src="images/adrien-s.jpg" alt="adrien" class="avatar-s">
+                        Adrien D
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="images/anne-s.jpg" alt="anne" class="avatar-s">
+                        Anne J
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="images/alayne-s.jpg" alt="alayne" class="avatar-s">
+                        Alayne T
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="images/arry-s.jpg" alt="arry" class="avatar-s">
+                        Arry Y
+                    </li>
+                </ul>
+                <div class="card-footer">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
