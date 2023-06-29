@@ -1,0 +1,66 @@
+* {
+    outline: red 1px;
+    font-family: sans-serif;
+    justify-content: center;
+
+}
+
+#container {
+
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    padding: 20px;
+
+}
+
+.h1 { 
+    justify-content: center;
+
+    
+}
+
+.otocat {
+
+    height: 250px;
+    width: 250px;
+    
+}
+
+
+
+.blue {
+    display: flex;
+    background-color: cyan;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+
+
+
+.pink {
+    display: flex;
+    background-color: lightpink;
+    justify-content: center;
+    
+}
+
+
+.green {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+
+
+    
+}
+
+
+
+
+.p{
+    text-align: center;
+    justify-content: center;
+}
+

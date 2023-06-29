@@ -1,0 +1,346 @@
+* {
+  outline: red 1px dotted;
+}
+
+
+.container {
+
+  width: 1340px;
+  height: 1340px;
+  background-color: white;
+  min-height: 100vh;
+
+}
+
+/*BARRA NAV*/
+
+
+#nav {
+
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black
+}
+
+.nav-buttom {
+  display: flex;
+  height: 40px;
+  width: 10%;
+
+  background-color: #17a2b8;
+  color: #ffffff;
+  border: none;
+  box-shadow: 10px 10px #000000;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+
+}
+
+
+.nav-opcions {
+  width: 70%;
+  padding: 0%;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  justify-content: left;
+  font-size: 23px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nav-profile {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-tittle{
+  font-size: 31px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hoja-papel {
+  display: flex;
+
+}
+
+/*Columna Izquierda*/
+
+.columna-izq {
+
+  flex: 1%;
+}
+
+
+
+.tarjeta-usuario {
+  background-color: #fffefe;
+  margin: 5%;
+  border: solid rgb(199, 198, 198)
+}
+
+.user-card {}
+
+
+.a {
+  color: #3a81e6;
+}
+
+.h3 {
+  justify-content: center;
+}
+
+.Profesion {
+  font-size: 20px;
+  padding-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gear {
+  font-size: 40px;
+  height: 25px;
+
+  padding-left: 5%;
+
+}
+
+.avatar-Perfil {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 150px;
+  position: relative;
+  bottom: -75px
+}
+
+.biografia {
+  margin-top: 90px;
+  padding-left: 5%;
+}
+
+.map-maker {
+  border-radius: 10%;
+  background-color: #fff;
+  height: 45px;
+  padding: 5px;
+  font-size: 40px;
+  padding-left: 5%;
+
+}
+
+.barra-azul {
+  background-color: #17a2b8;
+  height: 125px;
+  padding: 25px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+
+
+}
+
+.Barra-Gris1 {
+  margin: 5%;
+  padding: 20px;
+  margin-bottom: 40px;
+
+}
+
+.LETRAS-EDU {
+  background-color: #373838;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  font-family: cursive;
+}
+
+.Curriculum {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: large;
+}
+
+.cursando {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-size: 20px;
+}
+
+.año-cursando {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
+  color: #8d8d8d;
+  font-size: 30px;
+}
+
+.Education {
+  height: 12px;
+  padding: 20px;
+  margin-bottom: 40px;
+
+}
+
+/*Columna Derecha*/
+
+.columna-der {
+  flex: 1%;
+
+}
+
+
+
+.CuadroRequest {
+  height: 26%;
+  margin: 39px 134px -26px;
+  border: solid rgb(199, 198, 198)
+}
+
+.LETRAS-CONECTIONS {
+
+  padding: 0px 0px 0px 50px;
+  margin: 0px 0px 0px 0px;
+  font-size: 28px;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+.NUMERO2 {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  color: black;
+  border-radius: 50%;
+  background-color: gainsboro;
+
+  font-size: 23px;
+  padding-left: 5%;
+
+}
+
+
+.Barra-Gris2 {
+  height: 10px;
+
+}
+
+.ContenedorY {
+  background-color: #373838;
+  height: 50px;
+}
+
+
+.ContenedorX {
+  background-color: #e9e8e8;
+  height: 0px;
+
+}
+
+.accept-circle {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 0px 0px 0px
+}
+
+.close-circle {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+.avatar-m {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 68px;
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+
+}
+
+
+/* Columna 4*/
+.SujetosY {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+.SujetosX {
+  height: 0px;
+  font-family: sans-serif;
+  font-size: 30px;
+  align-items: center;
+}
+
+
+.ImgX {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+}
+
+
+.contenedor-4 {
+  background-color: #e9e8e8;
+  height: 51%;
+  margin: 16%;
+  width: 65%;
+  padding: 0%;
+
+
+}
+
+.barra-gris3 {
+  background-color: #373838;
+  height: 50px;
+  font-size: 28px;
+  color: white;
+  font-family: cursive;
+
+}
+
+.lista-amigos {
+  margin: 0px;
+  border: solid rgb(199, 198, 198)
+}
+
+#view-more {
+  background-color: #e9e8e8;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.SPAN {
+
+  font-family: sans-serif;
+  font-size: 30px;
+
+
+}
+
+
+.NUMERO500 {
+  display: inline-block;
+  width: 70px;
+  height: 32px;
+  color: black;
+  border-radius: 50%;
+  background-color: gainsboro;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.your-conection {
+  width: 1px;
+  height: 1px;
+
+}
